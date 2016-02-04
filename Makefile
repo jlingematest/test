@@ -1,4 +1,4 @@
-CC=clang++
+CC=g++
 CFLAGS=-Wall -pedantic -std=c++11
 SOURCES=test.cxx
 OBJECTS=$(SOURCES:.cxx=.o)
